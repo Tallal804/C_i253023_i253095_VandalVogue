@@ -8,7 +8,9 @@
 <body>
   <header class="site-header">
     <div class="top-strip"></div>
-     <a href = "Homepage.html"><img src="logo.png" alt="Vandal Vogue logo" class = "vlogo"></a>
+    <a href="Homepage.html">
+      <img src="logo.png" alt="Vandal Vogue logo" class="vlogo">
+    </a>
 
     <div class="header-main">
       <div class="brand">
@@ -40,8 +42,12 @@
 
   <main class="page-container">
     <section class="checkout-layout">
+      <!-- LEFT: PAYMENT METHODS -->
       <div class="payment-column">
         <h1>Checkout</h1>
+        <p class="checkout-subtitle">
+          Choose your payment method and review your order details.
+        </p>
 
         <div class="method-group">
           <p class="group-title">Payment Method</p>
@@ -75,13 +81,19 @@
 
           <button type="button" class="method-row">
             <span>Cash on Delivery</span>
-            <span class="arrow">></span>
+            <span class="arrow">›</span>
           </button>
         </div>
       </div>
 
+      <!-- RIGHT: ORDER SUMMARY -->
       <div class="summary-column">
         <div class="summary-card">
+          <div class="summary-header">
+            <h2>Order Summary</h2>
+            <p>2 items</p>
+          </div>
+
           <div class="cart-items">
             <div class="cart-row">
               <div class="cart-img">
@@ -89,7 +101,7 @@
               </div>
               <div class="cart-info">
                 <p class="cart-name">Rebel Fade T-shirt</p>
-                <p class="cart-price">PKR 1599</p>
+                <p class="cart-price">PKR 1,599</p>
               </div>
             </div>
 
@@ -114,9 +126,13 @@
               <span>Delivery</span>
               <span>PKR 799</span>
             </div>
+            <div class="detail-line">
+              <span>Tax</span>
+              <span>PKR 300</span>
+            </div>
             <div class="detail-line total-line">
               <span>Total</span>
-              <span>PKR 3,297</span>
+              <span>PKR 3,597</span>
             </div>
           </div>
 
