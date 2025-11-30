@@ -15,6 +15,12 @@ a{
   color:inherit;
 }
 
+.vlogo {
+    position:absolute;
+    height: 100px;
+    left: 10px;
+}
+
 .top-strip{
   height:12px;
   background:#e01818;
@@ -181,10 +187,6 @@ a{
 }
 
 .contact-form{
-  background:#fffdf1;
-  border-radius:18px;
-  padding:16px;
-  border:1px solid #f0e4c8;
   font-size:13px;
 }
 
