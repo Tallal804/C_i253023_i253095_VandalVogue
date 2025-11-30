@@ -8,9 +8,7 @@
 <body>
   <header class="site-header">
     <div class="top-strip"></div>
-    <a href="Homepage.html">
-      <img src="logo.png" alt="Vandal Vogue logo" class="vlogo">
-    </a>
+    <a href="Homepage.html"><img src="logo.png" alt="Vandal Vogue logo" class="vlogo"></a>
 
     <div class="header-main">
       <div class="brand">
@@ -42,39 +40,66 @@
 
   <main class="page-container">
     <section class="checkout-layout">
-      <!-- LEFT: PAYMENT METHODS -->
       <div class="payment-column">
         <h1>Checkout</h1>
-        <p class="checkout-subtitle">
-          Choose your payment method and review your order details.
-        </p>
+        <p class="checkout-subtitle">Choose your payment method and review your order.</p>
 
         <div class="method-group">
           <p class="group-title">Payment Method</p>
 
-          <button type="button" class="method-row">
-            <span>Google Pay</span>
-            <span class="arrow">›</span>
-          </button>
-
           <div class="method-block">
             <button type="button" class="method-row active">
-              <span>Debit Card</span>
+              <span>Debit / Credit Card</span>
               <span class="arrow">⌄</span>
             </button>
 
             <div class="card-list">
               <button type="button" class="card-row">
-                <span class="card-brand">Bank Islami</span>
+                <div class="card-left">
+                  <img src="bankislami.png" alt="Bank Islami card" class="card-logo">
+                  <span class="card-brand">Bank Islami</span>
+                </div>
                 <span class="card-num">**** **** **** 4321</span>
               </button>
+
               <button type="button" class="card-row">
-                <span class="card-brand">VISA</span>
+                <div class="card-left">
+                  <img src="visa.png" alt="VISA card" class="card-logo">
+                  <span class="card-brand">VISA</span>
+                </div>
                 <span class="card-num">**** **** **** 0291</span>
               </button>
+
+              <button type="button" class="card-row">
+                <div class="card-left">
+                  <img src="mastercard.png" alt="MasterCard card" class="card-logo">
+                  <span class="card-brand">MasterCard</span>
+                </div>
+                <span class="card-num">**** **** **** 8890</span>
+              </button>
+
               <button type="button" class="card-row">
                 <span class="card-brand">Add New Card</span>
                 <span class="card-num">+</span>
+              </button>
+            </div>
+
+            <p class="group-subtitle">Other payment options</p>
+
+            <div class="wallet-list">
+              <button type="button" class="wallet-row">
+                <img src="gpay.png" alt="Google Pay" class="wallet-logo">
+                <span>Google Pay</span>
+              </button>
+
+              <button type="button" class="wallet-row">
+                <img src="applepay.png" alt="Apple Pay" class="wallet-logo">
+                <span>Apple Pay</span>
+              </button>
+
+              <button type="button" class="wallet-row">
+                <img src="paypal.png" alt="PayPal" class="wallet-logo">
+                <span>PayPal</span>
               </button>
             </div>
           </div>
@@ -86,7 +111,6 @@
         </div>
       </div>
 
-      <!-- RIGHT: ORDER SUMMARY -->
       <div class="summary-column">
         <div class="summary-card">
           <div class="summary-header">
@@ -97,7 +121,7 @@
           <div class="cart-items">
             <div class="cart-row">
               <div class="cart-img">
-                <img src="" alt="Rebel Fade T-shirt">
+                <img src="rebel.png" alt="Rebel Fade T-shirt">
               </div>
               <div class="cart-info">
                 <p class="cart-name">Rebel Fade T-shirt</p>
@@ -107,7 +131,7 @@
 
             <div class="cart-row">
               <div class="cart-img">
-                <img src="" alt="Street Soul Laptop Skin">
+                <img src="laptop.png" alt="Street Soul Laptop Skin">
               </div>
               <div class="cart-info">
                 <p class="cart-name">Street Soul Laptop Skin</p>

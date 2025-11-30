@@ -10,7 +10,7 @@ body{
   color:#111111;
 }
 
-.vlogo {
+.vlogo{
   position:absolute;
   height:100px;
   left:10px;
@@ -90,6 +90,7 @@ a{
   padding:4px 8px;
   border-radius:16px;
   border:1px solid #dddddd;
+  background:#f7f7f7;
 }
 
 .main-nav{
@@ -110,10 +111,9 @@ a{
   background:#f5f2ff;
 }
 
-
 .page-container{
   max-width:1100px;
-  margin:30px auto 40px auto;
+  margin:20px auto 30px auto;
   padding:0 10px;
 }
 
@@ -135,22 +135,21 @@ a{
 
 .payment-column h1{
   font-size:26px;
-  margin-bottom:8px;
+  margin-bottom:10px;
 }
 
 .checkout-subtitle{
   font-size:13px;
   color:#666666;
-  margin-bottom:14px;
+  margin-bottom:12px;
 }
 
 .method-group{
-  background:#fafbff;
+  background:#ffffff;
   border-radius:14px;
   border:1px solid #e6e6e6;
-  padding:14px;
+  padding:12px;
   font-size:14px;
-  box-shadow:0 8px 20px rgba(0,0,0,0.03);
 }
 
 .group-title{
@@ -186,7 +185,7 @@ a{
 }
 
 .card-list{
-  margin-top:4px;
+  margin-top:6px;
 }
 
 .card-row{
@@ -207,12 +206,56 @@ a{
   background:#ffffff;
 }
 
+.card-left{
+  display:flex;
+  align-items:center;
+  gap:8px;
+}
+
+.card-logo{
+  width:28px;
+  height:18px;
+  object-fit:contain;
+}
+
 .card-brand{
   font-weight:500;
 }
 
 .card-num{
   color:#666666;
+}
+
+.group-subtitle{
+  margin-top:10px;
+  margin-bottom:6px;
+  font-size:12px;
+  color:#666666;
+}
+
+.wallet-list{
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+}
+
+.wallet-row{
+  width:100%;
+  padding:7px 10px;
+  border-radius:8px;
+  border:1px solid #efefef;
+  display:flex;
+  align-items:center;
+  gap:8px;
+  background:#ffffff;
+  cursor:pointer;
+  font-size:13px;
+}
+
+.wallet-logo{
+  width:28px;
+  height:18px;
+  object-fit:contain;
 }
 
 .summary-card{
@@ -223,7 +266,6 @@ a{
   padding:18px 18px 20px;
   box-shadow:0 10px 25px rgba(0,0,0,0.05);
 }
-
 
 .summary-header{
   display:flex;
@@ -341,7 +383,6 @@ a{
   background:#3f67d9;
 }
 
-
 .site-footer{
   margin-top:200px;
   border-top:1px solid #e6e6e6;
@@ -389,7 +430,6 @@ a{
   padding:8px 10px;
   font-size:13px;
 }
-
 
 @media(max-width:800px){
   .summary-column{
