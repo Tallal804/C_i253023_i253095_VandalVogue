@@ -213,7 +213,7 @@ a{
   flex: 1;
   background-color:maroon; 
   padding: 40px;
-  color: #111;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -239,7 +239,7 @@ a{
   font-size: 25px;
   line-height: 1.6;
   margin-bottom: 25px;
-  color: #111;
+  color: white;
 }
 
 .cta-btn {
@@ -312,7 +312,7 @@ a{
 .expert-info-box p {
   font-size: 14px;
   line-height: 1.5;
-  
+  color:white;
   font-family: 'Courier New', Courier, monospace; 
   font-weight: 600;
 }
