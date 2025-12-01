@@ -77,11 +77,10 @@ a{
   cursor:pointer;
 }
 
-.header-icons{
-  display:flex;
-  gap:10px;
-  font-size:13px;
-}
+.header-icons a{
+  padding:4px 8px;
+  border-radius:16px;
+  border: 1px solid #cccccc;
 
 .header-icons a{
   padding:4px 8px;
