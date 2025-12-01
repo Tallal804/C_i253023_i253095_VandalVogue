@@ -253,9 +253,12 @@ a{
 .my-image {
   position: relative;
   left: 900px; 
-  top: -300px; 
+  top: -700px; 
   transform: scale(1.5);
   clip-path: inset(25px 0 0 0);
+  
+  /* THIS REMOVES THE EMPTY SPACE */
+  margin-bottom: -400px; 
 }
 
 .site-footer{
