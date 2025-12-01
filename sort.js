@@ -1,4 +1,4 @@
-function getPrice(card) {
+  function getPrice(card) {
     var priceElement = card.getElementsByClassName("price")[0];
     var priceText = priceElement.textContent;
     var numberText = "";
@@ -35,10 +35,12 @@ function getPrice(card) {
 
         if (order === "low" && priceI > priceJ) {
           shouldSwap = true;
+          console.log("Sorted lowest to highest");
         }
 
         if (order === "high" && priceI < priceJ) {
           shouldSwap = true;
+          console.log("Sorted highest to lowest");
         }
 
         if (shouldSwap) {
