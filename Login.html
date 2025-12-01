@@ -46,17 +46,16 @@
       <!-- LOGIN PANEL -->
       <div class="auth-panel">
         <h1>Login</h1>
-        <form class="auth-form">
+        <form class="auth-form" id="login-form">
           <label for="login-email">Email</label>
           <input id="login-email" type="email" placeholder="Enter your email">
 
           <label for="login-pass">Password</label>
           <input id="login-pass" type="password" placeholder="Enter your password">
 
-          <button type="submit" class="btn primary-btn">Login</button>
+          <button type="submit" class="btn primary-btn" id="login-btn">Login</button>
         </form>
 
-        <!-- OR + social buttons -->
         <div class="auth-divider">
           <span>OR</span>
         </div>
@@ -79,7 +78,7 @@
       <!-- SIGNUP PANEL -->
       <div class="auth-panel">
         <h1>Sign up</h1>
-        <form class="auth-form">
+        <form class="auth-form" id="signup-form">
           <label for="signup-email">Email</label>
           <input id="signup-email" type="email" placeholder="Enter your email">
 
@@ -89,10 +88,9 @@
           <label for="signup-pass2">Confirm password</label>
           <input id="signup-pass2" type="password" placeholder="Confirm your password">
 
-          <button type="submit" class="btn ghost-btn">Create account</button>
+          <button type="submit" class="btn ghost-btn" id="signup-btn">Create account</button>
         </form>
 
-        <!-- OR + social buttons -->
         <div class="auth-divider">
           <span>OR</span>
         </div>
@@ -148,5 +146,7 @@
     </div>
     <div class="bottom-strip">Copyright © 2025 Vandal Vogue</div>
   </footer>
+
+  <script src="Login.js"></script>
 </body>
 </html>
