@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vandal Vogue | Checkout</title>
+  <link rel="stylesheet" href="checkout.css">
+</head>
+<script src="global.js"></script>
+<body>
+  <header class="site-header">
+    <div class="top-strip"></div>
+    <a href="Homepage.html"><img src="logo.png" alt="Vandal Vogue logo" class="vlogo"></a>
+
+    <div class="header-main">
+      <div class="brand">
+        <div class="brand-name">VANDAL VOGUE</div>
+        <div class="brand-tagline">URBAN EDGE</div>
+      </div>
+
+      <div class="header-search">
+        <input type="text" placeholder="Search for anything...">
+        <button type="button">Search</button>
+      </div>
+
+      <div class="header-icons">
+        <a href="Login.html">Login</a>
+        <a href="subscription.html">Subscriptions</a>
+        <a href="checkout.html">Cart</a>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <a href="Homepage.html">Home</a>
+      <a href="Listing.html">Shop</a>
+      <a href="Detail.html">Featured</a>
+      <a href="subscription.html">Mystery Box</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-container">
+    <section class="checkout-layout">
+      <div class="payment-column">
+        <h1>Checkout</h1>
+        <p class="checkout-subtitle">Choose your payment method and review your order.</p>
+
+        <div class="method-group">
+          <p class="group-title">Payment Method</p>
+
+          <div class="method-block">
+            <button type="button" class="method-row active">
+              <span>Debit / Credit Card</span>
+              <span class="arrow">⌄</span>
+            </button>
+
+            <div class="card-list">
+              <button type="button" class="card-row">
+                <div class="card-left">
+                  <img src="bankislami.png" alt="Bank Islami card" class="card-logo">
+                  <span class="card-brand">Bank Islami</span>
+                </div>
+                <span class="card-num">**** **** **** 4321</span>
+              </button>
+
+              <button type="button" class="card-row">
+                <div class="card-left">
+                  <img src="visa.png" alt="VISA card" class="card-logo">
+                  <span class="card-brand">VISA</span>
+                </div>
+                <span class="card-num">**** **** **** 0291</span>
+              </button>
+
+              <button type="button" class="card-row">
+                <div class="card-left">
+                  <img src="mastercard.png" alt="MasterCard card" class="card-logo">
+                  <span class="card-brand">MasterCard</span>
+                </div>
+                <span class="card-num">**** **** **** 8890</span>
+              </button>
+
+              <button type="button" class="card-row">
+                <span class="card-brand">Add New Card</span>
+                <span class="card-num">+</span>
+              </button>
+            </div>
+
+            <p class="group-subtitle">Other payment options</p>
+
+            <div class="wallet-list">
+              <button type="button" class="wallet-row">
+                <img src="gpay.png" alt="Google Pay" class="wallet-logo">
+                <span>Google Pay</span>
+              </button>
+
+              <button type="button" class="wallet-row">
+                <img src="applepay.png" alt="Apple Pay" class="wallet-logo">
+                <span>Apple Pay</span>
+              </button>
+
+              <button type="button" class="wallet-row">
+                <img src="paypal.png" alt="PayPal" class="wallet-logo">
+                <span>PayPal</span>
+              </button>
+            </div>
+          </div>
+
+          <button type="button" class="method-row">
+            <span>Cash on Delivery</span>
+            <span class="arrow">›</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="summary-column">
+        <div class="summary-card">
+          <div class="summary-header">
+            <h2>Order Summary</h2>
+            <p>2 items</p>
+          </div>
+
+          <div class="cart-items">
+            <div class="cart-row">
+              <div class="cart-img">
+                <img src="rebel.png" alt="Rebel Fade T-shirt">
+              </div>
+              <div class="cart-info">
+                <p class="cart-name">Rebel Fade T-shirt</p>
+                <p class="cart-price">PKR 1,599</p>
+              </div>
+            </div>
+
+            <div class="cart-row">
+              <div class="cart-img">
+                <img src="laptop.png" alt="Street Soul Laptop Skin">
+              </div>
+              <div class="cart-info">
+                <p class="cart-name">Street Soul Laptop Skin</p>
+                <p class="cart-price">PKR 899</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="payment-details">
+            <p class="details-title">Payment Details</p>
+            <div class="detail-line">
+              <span>Order</span>
+              <span>PKR 2,498</span>
+            </div>
+            <div class="detail-line">
+              <span>Delivery</span>
+              <span>PKR 799</span>
+            </div>
+            <div class="detail-line">
+              <span>Tax</span>
+              <span>PKR 300</span>
+            </div>
+            <div class="detail-line total-line">
+              <span>Total</span>
+              <span>PKR 3,597</span>
+            </div>
+          </div>
+
+          <div class="address-block">
+            <label for="address-select">Address</label>
+            <select id="address-select">
+              <option>Select an address</option>
+              <option>Home - Vinewood Hills</option>
+              <option>Office - Downtown Los Santos</option>
+            </select>
+          </div>
+
+          <button type="button" class="pay-btn">Pay Now</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h3>Vandal Vogue</h3>
+        <p>Street inspired covers, skins and accessories.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Help</h4>
+        <ul>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="#">Shipping and returns</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Track order</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>Email: vandalv@gmail.com</li>
+          <li>Phone: 0000-0000000</li>
+        </ul>
+        <h4>Find us</h4>
+        <ul>
+          <li>3671 Whispymound Drive</li>
+          <li>Vinewood Hills</li>
+          <li>Los Santos</li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-strip">Copyright © 2025 Vandal Vogue</div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vandal Vogue | Login</title>
+  <link rel="stylesheet" href="Login.css">
+</head>
+<script src="global.js"></script>
+<body>
+  <header class="site-header">
+    <div class="top-strip"></div>
+    <a href="Homepage.html">
+      <img src="logo.png" alt="Vandal Vogue logo" class="vlogo">
+    </a>
+
+    <div class="header-main">
+      <div class="brand">
+        <div class="brand-name">VANDAL VOGUE</div>
+        <div class="brand-tagline">URBAN EDGE</div>
+      </div>
+
+      <div class="header-search">
+        <input type="text" placeholder="Search for anything...">
+        <button type="button">Search</button>
+      </div>
+
+      <div class="header-icons">
+        <a href="Login.html">Login</a>
+        <a href="subscription.html">Subscriptions</a>
+        <a href="checkout.html">Cart</a>
+      </div>
+    </div>
+
+    <nav class="main-nav">
+      <a href="Homepage.html">Home</a>
+      <a href="Listing.html">Shop</a>
+      <a href="Detail.html">Featured</a>
+      <a href="subscription.html">Mystery Box</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-container">
+    <section class="auth-layout">
+
+      <!-- LOGIN PANEL -->
+      <div class="auth-panel">
+        <h1>Login</h1>
+        <form class="auth-form" id="login-form">
+          <label for="login-email">Email</label>
+          <input id="login-email" type="email" placeholder="Enter your email">
+
+          <label for="login-pass">Password</label>
+          <input id="login-pass" type="password" placeholder="Enter your password">
+
+          <button type="submit" class="btn primary-btn" id="login-btn">Login</button>
+        </form>
+
+        <div class="auth-divider">
+          <span>OR</span>
+        </div>
+
+        <div class="social-buttons">
+          <button type="button" class="social">
+            <img src="google.png" alt="Google logo">
+            <span>Continue with Google</span>
+          </button>
+
+          <button type="button" class="social">
+            <img src="facebook.png" alt="Facebook logo">
+            <span>Continue with Facebook</span>
+          </button>
+        </div>
+        <br>
+        <p class="auth-note">Forgot your password? You can reset it later.</p>
+      </div>
+
+      <!-- SIGNUP PANEL -->
+      <div class="auth-panel">
+        <h1>Sign up</h1>
+        <form class="auth-form" id="signup-form">
+          <label for="signup-email">Email</label>
+          <input id="signup-email" type="email" placeholder="Enter your email">
+
+          <label for="signup-pass">Password</label>
+          <input id="signup-pass" type="password" placeholder="Enter your password">
+
+          <label for="signup-pass2">Confirm password</label>
+          <input id="signup-pass2" type="password" placeholder="Confirm your password">
+
+          <button type="submit" class="btn ghost-btn" id="signup-btn">Create account</button>
+        </form>
+
+        <div class="auth-divider">
+          <span>OR</span>
+        </div>
+
+        <div class="social-buttons">
+          <button type="button" class="social">
+            <img src="google.png" alt="Google logo">
+            <span>Continue with Google</span>
+          </button>
+
+          <button type="button" class="social">
+            <img src="facebook.png" alt="Facebook logo">
+            <span>Continue with Facebook</span>
+          </button>
+        </div>
+
+        <p class="auth-note">You can also continue as guest during checkout.</p>
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-col">
+        <h3>Vandal Vogue</h3>
+        <p>Street inspired covers, skins and accessories.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Help</h4>
+        <ul>
+          <li><a href="contact.html">Contact us</a></li>
+          <li><a href="#">Shipping and returns</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Track order</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>Email: vandalv@gmail.com</li>
+          <li>Phone: 0000-0000000</li>
+        </ul>
+        <h4>Find us</h4>
+        <ul>
+          <li>3671 Whispymound Drive</li>
+          <li>Vinewood Hills</li>
+          <li>Los Santos</li>
+        </ul>
+      </div>
+    </div>
+    <div class="bottom-strip">Copyright © 2025 Vandal Vogue</div>
+  </footer>
+
+  <script src="Login.js"></script>
+</body>
+</html>

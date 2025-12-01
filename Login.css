@@ -1,0 +1,294 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background-color:#ffffff;
+  color:#111111;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+.top-strip{
+  height:12px;
+  background:#e01818;
+  width:100%;
+}
+
+.site-header{
+  border-bottom:1px solid #e6e6e6;
+  background:#ffffff;
+}
+
+.vlogo {
+    position:absolute;
+    height: 100px;
+    left: 10px;
+}
+
+
+.header-main{
+  max-width:1100px;
+  margin:10px auto;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+  padding:4px 10px 10px 10px;
+}
+
+.brand-name{
+  font-weight:800;
+  letter-spacing:2px;
+  font-size:18px;
+}
+
+.brand-tagline{
+  font-size:11px;
+  color:#777777;
+  margin-top:2px;
+}
+
+.header-search{
+  flex:1;
+  display:flex;
+}
+
+.header-search input{
+  flex:1;
+  padding:6px 8px;
+  border:1px solid #cccccc;
+  border-radius:20px 0 0 20px;
+  font-size:13px;
+}
+
+.header-search button{
+  padding:6px 12px;
+  border:1px solid #cccccc;
+  border-left:none;
+  border-radius:0 20px 20px 0;
+  background:#111111;
+  color:#ffffff;
+  font-size:13px;
+  cursor:pointer;
+}
+
+.header-icons{
+  display:flex;
+  gap:10px;
+  font-size:13px;
+}
+
+.header-icons a{
+  padding:4px 8px;
+  border-radius:16px;
+  border:1px solid #dddddd;
+  background:#f7f7f7;
+}
+
+.main-nav{
+  max-width:1100px;
+  margin:0 auto 10px;
+  padding:0 10px 10px 10px;
+  display:flex;
+  justify-content:center;
+  gap:18px;
+}
+
+.main-nav a{
+  font-size:13px;
+  padding:4px 12px;
+  border-radius:20px;
+  background:#f0ecff;
+}
+
+.page-container{
+  max-width:1100px;
+  margin:30px auto 40px;
+  padding:0 10px;
+}
+
+.auth-layout{
+  display:flex;
+  gap:40px;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+
+/* PANELS */
+
+.auth-panel{
+  flex:1 1 260px;
+  background:#fbf6dc;
+  border-radius:18px;
+  padding:22px 24px 24px;
+  box-shadow:0 4px 0 #d1c1ff;
+}
+
+.auth-panel h1{
+  font-size:20px;
+  text-align:center;
+  margin-bottom:14px;
+  color:#7b68c9;
+}
+
+.auth-form label{
+  display:block;
+  font-size:12px;
+  margin-bottom:4px;
+}
+
+.auth-form input{
+  width:100%;
+  padding:8px 10px;
+  margin-bottom:10px;
+  border-radius:12px;
+  border:1px solid #cccccc;
+  font-size:13px;
+}
+
+.auth-note{
+  font-size:12px;
+  margin-top:8px;
+}
+
+.btn{
+  width:100%;
+  padding:8px 0;
+  border-radius:20px;
+  border:none;
+  font-size:14px;
+  cursor:pointer;
+}
+
+.primary-btn{
+  background:#b49afc;
+  color:#ffffff;
+}
+
+.ghost-btn{
+  background:#b49afc;
+  color:#ffffff;
+}
+
+/* FOOTER */
+
+.site-footer{
+  margin-top:100px;
+  border-top:1px solid #eeeeee;
+  background:#ffffff;
+}
+
+.footer-inner{
+  max-width:1100px;
+  margin:0 auto;
+  padding:20px 10px 30px 10px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:60px;
+}
+
+.footer-col{
+  flex:1 1 220px;
+}
+
+.footer-col h3,
+.footer-col h4{
+  margin-bottom:8px;
+}
+
+.footer-col p{
+  font-size:13px;
+  line-height:1.4;
+}
+
+.footer-col ul{
+  list-style:none;
+  padding-left:0;
+  font-size:13px;
+}
+
+.footer-col li{
+  margin-bottom:4px;
+}
+
+.bottom-strip{
+  background:#e01818;
+  color:#ffffff;
+  text-align:center;
+  padding:8px 10px;
+  font-size:13px;
+}
+
+
+@media(max-width:720px){
+  .header-main{
+    flex-direction:column;
+    align-items:flex-start;
+  }
+  .header-search{
+    width:100%;
+  }
+  .header-icons{
+    width:100%;
+    justify-content:flex-start;
+    flex-wrap:wrap;
+  }
+  .main-nav{
+    flex-wrap:wrap;
+  }
+  .auth-layout{
+    flex-direction:column;
+  }
+}
+
+.auth-divider{
+  display:flex;
+  align-items:center;
+  margin:12px 0;
+  font-size:12px;
+  color:#777777;
+}
+
+.auth-divider::before,
+.auth-divider::after{
+  content:"";
+  flex:1;
+  height:1px;
+  background-color:#e0e0e0;
+}
+
+.auth-divider span{
+  margin:0 8px;
+}
+
+.social-buttons{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+  margin-top:4px;
+}
+
+.social{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  width:100%;
+  padding:6px 10px;
+  border-radius:8px;
+  border:1px solid #cccccc;
+  background-color:#f4f4f4;
+  font-size:13px;
+  cursor:pointer;
+}
+
+.social img{
+  width:18px;
+  height:18px;
+}
