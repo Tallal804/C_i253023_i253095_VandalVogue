@@ -23,7 +23,7 @@ a{
 
 .top-strip{
   height:12px;
-  background:#e01818;
+  background:maroon;
   width:100%;
 }
 
@@ -99,7 +99,7 @@ a{
   justify-content:center;
   gap:10px;
   padding:6px 10px 10px 10px;
-  background:#e9e3f5;
+  background:maroon;
   border-radius:20px;
 }
 
@@ -107,7 +107,7 @@ a{
   font-size:13px;
   padding:6px 10px;
   border-radius:16px;
-  background:#f5f2ff;
+  background:white;
 }
 
 .page-container{
@@ -272,7 +272,7 @@ a{
 }
 
 .bottom-strip{
-  background:#e01818;
+  background:maroon;
   color:#ffffff;
   text-align:center;
   padding:8px 10px;

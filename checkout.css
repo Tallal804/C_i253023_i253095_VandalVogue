@@ -23,7 +23,7 @@ a{
 
 .top-strip{
   height:12px;
-  background:#e01818;
+  background:maroon;
   width:100%;
 }
 
@@ -89,10 +89,8 @@ a{
 .header-icons a{
   padding:4px 8px;
   border-radius:16px;
-  border:1px solid #dddddd;
-  background:#f7f7f7;
+  border:1px solid #cccccc;
 }
-
 .main-nav{
   max-width:1100px;
   margin:0 auto 10px auto;
@@ -100,7 +98,7 @@ a{
   justify-content:center;
   gap:10px;
   padding:6px 10px 10px 10px;
-  background:#e9e3f5;
+  background:maroon;
   border-radius:20px;
 }
 
@@ -108,7 +106,7 @@ a{
   font-size:13px;
   padding:6px 10px;
   border-radius:16px;
-  background:#f5f2ff;
+  background:white;
 }
 
 .page-container{
@@ -424,7 +422,7 @@ a{
 }
 
 .bottom-strip{
-  background:#e01818;
+  background:maroon;
   color:#ffffff;
   text-align:center;
   padding:8px 10px;

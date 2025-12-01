@@ -23,7 +23,7 @@ a{
 
 .top-strip{
   height:12px;
-  background:#e01818;
+  background:maroon;
   width:100%;
 }
 
@@ -99,7 +99,7 @@ a{
   justify-content:center;
   gap:10px;
   padding:6px 10px 10px 10px;
-  background:#e9e3f5;
+  background:maroon;
   border-radius:20px;
 }
 
@@ -107,7 +107,7 @@ a{
   font-size:13px;
   padding:6px 10px;
   border-radius:16px;
-  background:#f5f2ff;
+  background:white;
 }
 
 .page-container{
@@ -132,24 +132,25 @@ a{
 
 .contact-right{
   flex:1 1 260px;
+  color:maroon;
 }
 
 .contact-left h1{
   font-size:26px;
-  color:#7a5ed8;
+  color:maroon;
   margin-bottom:4px;
 }
 
 .contact-subtitle{
   font-size:15px;
-  color:#7a5ed8;
+  color:maroon;
   margin-bottom:8px;
 }
 
 .contact-text{
   font-size:13px;
   line-height:1.5;
-  color:#555555;
+  color:maroon;
   margin-bottom:16px;
 }
 
@@ -170,7 +171,7 @@ a{
   width:32px;
   height:32px;
   border-radius:8px;
-  background:#f1e2ff;
+  background:white;
   display:flex;
   align-items:center;
   justify-content:center;
@@ -179,11 +180,12 @@ a{
 
 .detail-label{
   font-size:12px;
-  color:#777777;
+  color:maroon;
 }
 
 .detail-main{
   font-size:14px;
+  color:maroon;
 }
 
 .contact-form{
@@ -224,8 +226,8 @@ a{
   padding:8px 16px;
   border-radius:18px;
   border:none;
-  background:#b49ee6;
-  color:#ffffff;
+  background:maroon;
+  color:white;
   font-size:14px;
   cursor:pointer;
 }
@@ -234,6 +236,7 @@ a{
   background:#fff4cf;
   border-radius:18px;
   padding:20px;
+  color:maroon
 }
 
 .info-row{
@@ -249,18 +252,21 @@ a{
   border-radius:14px;
   padding:12px;
   font-size:13px;
+  
 }
 
 .visit-card h2{
   font-size:18px;
-  color:#7a5ed8;
+  color:black;
   margin-bottom:6px;
+  color:maroon;
 }
 
 .chat-card h2{
   font-size:18px;
-  color:#7a5ed8;
+  color:black;
   margin-bottom:6px;
+  color:maroon;
 }
 
 .chat-btn{
@@ -268,8 +274,8 @@ a{
   padding:8px 14px;
   border-radius:18px;
   border:none;
-  background:#b49ee6;
-  color:#ffffff;
+  background:maroon;
+  color:white;
   font-size:13px;
   cursor:pointer;
 }
@@ -281,7 +287,7 @@ a{
 .faq-title{
   text-align:center;
   font-size:20px;
-  color:#7a5ed8;
+  color:maroon;
   margin-bottom:14px;
 }
 
@@ -295,10 +301,10 @@ a{
 .faq-card{
   flex:1 1 200px;
   max-width:230px;
-  background:#c6a8ff;
+  background:maroon;
   border-radius:14px;
   padding:10px;
-  color:#111111;
+  color:white;
   font-size:13px;
   position:relative;
 }
