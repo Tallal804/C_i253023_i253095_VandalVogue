@@ -10,6 +10,13 @@ body{
   color:#111111;
 }
 
+.vlogo{
+  position:absolute;
+  height:100px;
+  left:10px;
+}
+
+
 a{
   text-decoration:none;
   color:inherit;

@@ -15,6 +15,13 @@ a{
   color:inherit;
 }
 
+.vlogo{
+  position:absolute;
+  height:100px;
+  left:10px;
+}
+
+
 .top-strip{
   height:12px;
   background:maroon;
